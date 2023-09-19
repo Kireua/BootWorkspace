@@ -6,7 +6,9 @@
 	<configuration>
 		<typeAliases>
 			<typeAlias type="com.yb.app.board.BoardVO" alias="BoardVO"/>
-			<typeAlias type="com.yb.app.board.NoticeVO" alias="NoticeVO"/>
+			<typeAlias type="com.yb.app.board.notice.NoticeVO" alias="NoticeVO"/>
+			<typeAlias type="com.yb.app.commons.Pager" alias="Pager"/>
+			<typeAlias type="java.lang.Long" alias="Long"/>
 			
 		</typeAliases>
 	</configuration>
