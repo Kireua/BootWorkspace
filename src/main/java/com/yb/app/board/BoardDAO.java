@@ -9,10 +9,12 @@ public interface BoardDAO {
 	public List<BoardVO> getList(Pager pager) throws Exception; 
 	
 	public int add(BoardVO boardVO)throws Exception;
+	
+	public int fileAdd(FileVO fileVO)throws Exception;
 
 	public Long getCount(Pager pager) throws Exception;
 	
-	public BoardVO getdetail(BoardVO boardVO) throws Exception;
+	public BoardVO getDetail(BoardVO boardVO) throws Exception;
 	
 	public int setUpdate(BoardVO boardVO) throws Exception;
 	
